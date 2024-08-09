@@ -1,0 +1,11 @@
+.content {
+    width: 90%;
+    margin: 20px auto 40px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 70%;
+    margin: 40px auto 60px;
+  }
+}

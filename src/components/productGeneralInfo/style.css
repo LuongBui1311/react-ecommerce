@@ -1,0 +1,36 @@
+.cate-name{
+  background-color: #8085ec;
+  font-size: 0.75rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #f0f1fb;
+  font-weight: 500;
+}
+.product_name {
+  margin: 0 !important;
+  font-size: 24px !important;
+}
+.product_original_price,
+.product_discounted_price {
+  margin: 0 !important;
+  font-size: 32px;
+}
+.product_discounted_price{
+    font-weight: 500;
+}
+.product_original_price{
+    text-decoration: line-through;
+}
+
+@media (min-width: 768px) {
+  .product_name {
+    font-size: 32px !important;
+  }
+  .product_original_price,
+  .product_discounted_price {
+    font-size: 40px;
+  }
+  .product_description{
+    font-size: 1rem !important;
+  }
+}

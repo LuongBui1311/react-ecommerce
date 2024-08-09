@@ -1,0 +1,152 @@
+#root {
+  margin: 0;
+}
+/* Main Component */
+.header{
+  padding: 0 16px;
+  background: #fff;
+  height: auto;
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.admin-content{
+  margin: 24px 16px;
+  padding: 20px;
+}
+
+/* Banner */
+.btn{
+  padding: 20px 16px;
+}
+.btn-group{
+  flex-direction: column;
+}
+.banner{
+  height: auto;
+  padding: 8px;
+}
+.title{
+  margin-top: 0 !important;
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+}
+.text{
+  font-size: 0.825rem !important;
+}
+
+/* Sider */
+.sider{
+  position: sticky !important;
+  left: 0;
+  bottom: 0;
+  top: 64px;
+  background: #fff !important;
+  padding-top: 20px;
+}
+.logo{
+  color: #4e54c8;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.menu-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 500;
+}
+.ant-menu-item-selected{
+  background-color: #4e54c8 !important;
+  color: #f0f1fb !important;
+}
+
+/* Buttons and colors */
+.ant-btn:hover{
+  color: #4e54c8 !important;
+  border-color: #4e54c8 !important;
+}
+.ant-btn-primary{
+  background-color: #4e54c8 !important;
+}
+.ant-btn-primary:hover{
+  background-color: #2c318e !important;
+  color: #fff !important;
+}
+.primary--color{
+  color: #4e54c8 !important;
+}
+.primary--light--color{
+  color: #777cde;
+}
+.gray--color{
+  color: #808092;
+}
+
+/* Product card */
+.product-card{
+  flex: 1;
+  height: 250px;
+  text-align: center;
+}
+
+/* CustomImage */
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.change-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+}
+
+.image-container:hover .change-button {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .searchbar{
+    display: block;
+  }
+  .logo{
+    color: #4e54c8;
+    font-size: 1.3rem;
+  }
+  .header{
+    padding: 0 40px;
+    background: #fff;
+    height: auto;
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .banner{
+    height: auto;
+    padding: 20px;
+  }
+  .btn-group{
+    flex-direction: row;
+  }
+  .title{
+    margin-top: 0 !important;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+  }
+  .text{
+    font-size: 1rem !important;
+  }
+}

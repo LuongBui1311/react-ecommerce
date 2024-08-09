@@ -1,0 +1,15 @@
+.header-icon{
+    display: none;
+  }
+
+@media (min-width: 768px) {
+    .header-icon{
+        display: block;
+        background:#f0f1fb;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #4e54c8;
+        cursor: pointer;
+      }
+}

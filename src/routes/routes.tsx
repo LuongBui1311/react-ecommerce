@@ -1,0 +1,9 @@
+export const HOME: string = '/';
+export const LOGIN: string = '/signin';
+export const REGISTER: string = '/signup';
+export const DASHBOARD: string = '/admin/dashboard';
+export const PRODUCT_LIST: string = '/admin/productlist';
+export const PRODUCT_DETAILS: string = '/admin/productdetails';
+export const SELECTED_PRODUCT_DETAILS: string = '/admin/productdetails/:productId';
+export const USER_PRODUCT_LIST: string = '/productlist';
+export const USER_PRODUCT_DETAILS: string = '/productdetails/:productUrlName'

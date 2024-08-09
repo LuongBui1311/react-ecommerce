@@ -1,0 +1,31 @@
+.btn_add, .btn_buy{
+    font-size: 1rem;
+    padding: 20px 0;
+    flex-grow: 1;
+    font-weight: 500;
+}
+.total-items, .total-price{
+    margin: 0;
+}
+.total-items{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.total-price{
+    font-size: 20px !important;
+}
+
+@media (min-width: 768px) {
+    .btn_add, .btn_buy{
+        font-size: 1.2rem;
+        padding: 30px 0;
+        flex-grow: 1;
+        font-weight: 500;
+    }
+    .total-items{
+        font-size: 20px !important;
+    }
+    .total-price{
+        font-size: 24px !important;
+    }
+}

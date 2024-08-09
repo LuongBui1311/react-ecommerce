@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+  }
+  .page {
+    margin: 0;
+  }
+  .form-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .form-container h2 {
+    font-size: 1.7rem;
+    margin: 20px auto;
+    color: #4e54c8;
+  }
+  .login-form,
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .login-form Button,
+  .register-form Button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: #4e54c8;
+  }
+  .inputs {
+    width: 15rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+  }
+  .login-page,
+  .register-page {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #f0f1fb;
+    margin: 0;
+    height: 100%;
+    row-gap: 40px;
+  }
+  .login_content-container,
+  .register_content-container {
+    width: 100%;
+  }
+  .login_content-container {
+    margin: 40px 0 0 0;
+  }
+  .register_content-container {
+    margin: 40px 0 0 0;
+  }
+  .login_sider-container,
+  .register_sider-container {
+    background: linear-gradient(to top, #4e54c8, #8f94fb);
+    width: 100%;
+    color: aliceblue;
+    border-radius: 20% 20% 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .login_sider-content,
+  .register_sider-content {
+    width: 80%;
+    padding: 8px;
+  }
+  .login_sider-content h1,
+  .register_sider-content h1 {
+    display: none;
+  }
+  .login_sider-content p,
+  .register_sider-content p {
+    margin: 24px auto;
+    font-size: 0.825rem;
+    line-height: 2rem;
+  }
+  .login_sider-content Button,
+  .register_sider-content Button {
+    color: #4e54c8;
+    font-size: 0.825rem;
+    font-weight: 500;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  .logo-page{
+      display: none;
+    }
+  
+  @media (min-width: 1024px) {
+      .login-page,
+    .register-page {
+      display: flex;
+      flex-direction: row;
+      background-color: #f0f1fb;
+      margin: 0;
+      height: 100%;
+    }
+    .register-page {
+      flex-direction: row-reverse;
+    }
+    .login_content-container,
+    .register_content-container {
+      width: 55%;
+      padding: 2rem;
+    }
+    .login_content-container {
+      margin: 190px 0;
+    }
+    .register_content-container {
+      margin: 95px 0;
+    }
+    .form-container h2 {
+      font-size: 3rem;
+      margin: 24px auto;
+      color: #4e54c8;
+    }
+    .inputs {
+      width: 30rem;
+      line-height: 3rem;
+      font-size: 1.2rem;
+    }
+    .login_sider-container,
+    .register_sider-container {
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      width: 45%;
+      color: aliceblue;
+      border-radius: 0 20% 20% 0;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: start;
+    }
+    .register_sider-container {
+      background: linear-gradient(to left, #4e54c8, #8f94fb);
+      border-radius: 20% 0 0 20%;
+      text-align: end;
+    }
+    .login_sider-content,
+    .register_sider-content {
+      max-width: 500px;
+      width: 100%;
+    }
+    .login_sider-content h1,
+    .register_sider-content h1 {
+      display: block;
+      margin: 0;
+      font-size: 3.5rem;
+      line-height: 4rem;
+    }
+    .login_sider-content p,
+    .register_sider-content p {
+      margin: 24px auto;
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+    .login_sider-content Button,
+    .register_sider-content Button {
+      color: #4e54c8;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 16px;
+    }
+    .logo-page{
+      font-size: 1.3rem;
+      font-weight: 500;
+      position: absolute;
+      top: 20px;
+      left: 40px;
+      display:block;
+    }
+  }

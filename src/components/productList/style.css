@@ -1,0 +1,6 @@
+.ant-card-body{
+    height: 100% !important;
+}
+.product-card:hover{
+    box-shadow: 0 0 10px rgb(225, 221, 221);
+}
